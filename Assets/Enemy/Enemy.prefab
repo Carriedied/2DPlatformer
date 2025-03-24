@@ -15,7 +15,8 @@ GameObject:
   - component: {fileID: 8119738833082743826}
   - component: {fileID: 8995210962764263492}
   - component: {fileID: 5458230625498383708}
-  - component: {fileID: 7618431325684598478}
+  - component: {fileID: 9197865616758017952}
+  - component: {fileID: 1753425732896875411}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -215,7 +216,7 @@ MonoBehaviour:
   _waypoints:
   - {fileID: 0}
   - {fileID: 0}
---- !u!114 &7618431325684598478
+--- !u!114 &9197865616758017952
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -224,7 +225,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 7339553818677772181}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06a10bcfc914d874197a8e4903f58cbf, type: 3}
+  m_Script: {fileID: 11500000, guid: 0d6414d454cf3cc48a1fcbcdea9c82b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 2
+--- !u!114 &1753425732896875411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7339553818677772181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6817c296f11d91747be56fc892b19c7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speedX: 2

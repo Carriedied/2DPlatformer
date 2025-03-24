@@ -8,7 +8,5 @@ public class WalletPenguin : MonoBehaviour
     public void AddCoin()
     {
         coins++;
-
-        Debug.Log(coins);
     }
 }
